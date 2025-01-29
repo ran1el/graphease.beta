@@ -7,7 +7,7 @@ import pdfkit
 import tempfile
 
 # Ensure this path points to the folder containing wkhtmltopdf.exe
-path_wkhtmltopdf = r"C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe"
+path_wkhtmltopdf = '/usr/bin/wkhtmltopdf'
 config = pdfkit.configuration(wkhtmltopdf=path_wkhtmltopdf)
 
 # Function to generate PDF
