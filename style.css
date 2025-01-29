@@ -1,0 +1,27 @@
+/* style.css */
+
+.light-theme {
+    color: black; /* Dark text for light background */
+}
+
+.dark-theme {
+    color: white; /* Light text for dark background */
+}
+
+footer {
+    position: fixed;
+    right: 20px;  /* Position the footer on the right */
+    bottom: 10px; /* Position the footer at the bottom */
+    font-size: 14px;
+    text-align: right;
+    padding: 5px;
+}
+
+footer a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
