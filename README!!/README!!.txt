@@ -13,3 +13,6 @@ pip install openpyxl  # For reading `.xlsx` files
 pip install xlrd      # For older `.xls` files 
 
 After that, you should be able to run the code successfully!
+
+pip install plotly --IMPORTANT--
+pip install pdfkit --IMPORTANT--
